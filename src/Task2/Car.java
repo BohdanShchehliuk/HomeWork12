@@ -1,9 +1,10 @@
 package Task2;
 
+import java.util.Scanner;
+
 public class Car extends Vehicle {
-    public Car() {
-        this.speed = 200;
-        this.year = 2020;
-        this.price = 10000;
-    }
+
+    public Car(int price, int  speed, int year) {
+        super(price, speed,200)   ;
+        }
 }
